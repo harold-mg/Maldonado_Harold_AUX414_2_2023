@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;400;600&family=Bebas+Neue&family=Roboto:wght@100;300;400;700&family=Tilt+Prism&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: sans-serif;
+    color: blue;
+    
+}
+h2 {
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(229, 242, 109);
+}
+.calculadora {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    border: solid 3px
+}
+.class-numeros{
+    padding-top: 2%;
+}
+label {
+    
+    color: azure;
+    font-weight: bolder;
+}
+.botones {
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: ghostwhite;
+}
+.botones:hover{
+    background-color:palegoldenrod;
+}
+p {
+    background-color:aliceblue;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+span{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: lightseagreen;
+}
+.class-imc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 0% 3%;
+}
+.class-imc span{
+    font-weight: bolder;
+    font-size: medium;
+    color: #3920b2;
+}
+.resultado-imc p {
+    height: 75px;
+}
+#boton-imc{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: azure;
+    font-weight: bold;
+}
+.peso-altura input{
+    border-radius: 5px;
+}
+@media screen and (max-width: 400px){
+    .calculadora {
+        background-color: aquamarine;
+    }
+    .class-numeros {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        color: black;
+        font-size: larger;
+    }
+    .class-botones {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        ;
+    }
+    .botones{
+        margin-top: 3%;
+        padding: 3%;
+    }
+    .class-imc{
+        margin: -5% 0% 3%;
+    }
+    .class-imc h2 {
+        color: #3920b2;
+    }
+}

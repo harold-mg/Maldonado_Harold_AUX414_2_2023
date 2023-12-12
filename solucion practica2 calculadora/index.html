@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>PRACTICA 2</title>
+</head>
+<body>
+    <h1>Apellidos Nombres</h1>
+    <!-- <h1>Mi CALCULADORA</h1> -->
+    <div class="calculadora">
+        <div class="class-numeros">
+            <label for="">Numero 1:</label>
+            <input type="text" id="num1" value="" size="7">
+            <label for="">Numero 2:</label>
+            <input type="text" id="num2" value="" size="7">
+        </div>
+        <br/>
+        <div class="class-botones">
+            <input class="botones" type="button" id="sumar" value="SUMAR">
+            <input class="botones" type="button" id="restar" value="RESTAR">
+            <input class="botones" type="button" id="multiplicar" value="MULTIPLICAR">
+            <input class="botones" type="button" id="dividir" value="DIVIDIR">
+        </div>
+        <div class="class-resultado">
+            <p>RESULTADO <span id="total"></span></p>
+        </div>
+        <div class="class-imc">
+            <h2>IMC ⚖</h2>
+            <div class="peso-altura">
+                <label>Peso:</label>
+                <input type="text" id="peso" size="7">
+                <label>Altura:</label>
+                <input type="text" id="altura" size="7"><br/>
+            </div>
+            <div class="class-m-f">
+                <label>Masculino</label>
+                <input type="radio" id="m" name="sexo">
+                <label>Femenino</label>
+                <input type="radio" id="f" name="sexo"> <br/>
+            </div>
+            <input type="button" id="boton-imc" value="IMC">
+            <div class="resultado-imc">
+                <p>RESULTADO <span id="total-imc"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
